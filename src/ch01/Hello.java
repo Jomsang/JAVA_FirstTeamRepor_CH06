@@ -9,7 +9,7 @@ public class Hello {
 		System.out.println("zzz1111222222333333");
 		System.out.println("zzz1111222222333333");
 		System.out.println("zzz1111222222333333");
->>>>>>> branch 'master' of https://github.com/Jomsang/Java.git
+
 
 
 	}
