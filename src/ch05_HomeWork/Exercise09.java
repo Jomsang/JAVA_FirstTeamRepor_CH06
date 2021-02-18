@@ -37,12 +37,10 @@ public class Exercise09 {
 				int max = 0;
 				double avg = 0.0;
 				for(int i = 0; i < scores.length; i++) {
-
 					if(max < scores[i]) {
 						max = scores[i];
 
 					}
-
 					sum += scores[i];
 				}
 				avg = (double) sum / scores.length;
