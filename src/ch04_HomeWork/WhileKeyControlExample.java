@@ -2,7 +2,7 @@ package ch04_HomeWork;
 
 public class WhileKeyControlExample {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 
 		boolean run = true;	
 		int speed = 0;
@@ -16,11 +16,9 @@ public class WhileKeyControlExample {
 				System.out.println("선택 : ");
 			}
 
-			try {									//Exception 처리
+												
 				keyCode = System.in.read();
-			}catch(Exception e){
-				e.printStackTrace();
-			}
+			
 
 			if(keyCode == 49) {	//1(49)이 입력되면 speed 증가
 				speed++;

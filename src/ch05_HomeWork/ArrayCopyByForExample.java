@@ -2,7 +2,7 @@ package ch05_HomeWork;
 
 public class ArrayCopyByForExample {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {	//이 방식은 추천하지 않음 X
 		int[] oldIntArray = {1, 2, 3};
 		int[] newIntArray = new int[5];
 

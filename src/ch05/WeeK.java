@@ -1,0 +1,11 @@
+package ch05;
+
+public enum WeeK {
+	MONDAY,
+	TUSEDAY,
+	WEDNESDAY,
+	THURSDAY,
+	FRIDAY,
+	SATURDAY,
+	SUNDAY
+}
